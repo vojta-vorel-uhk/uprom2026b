@@ -13,6 +13,6 @@ public class Cviko01_Uloha01
         float x2 = scanner.nextFloat();
         float x3 = scanner.nextFloat();
 
-        System.out.println(10);
+        System.out.println(x1 + x2 + x3);
     }
 }
