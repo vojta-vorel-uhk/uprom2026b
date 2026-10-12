@@ -14,6 +14,6 @@ public class Cviko03_Uloha02
         // Předběžná daň z příjmů činí 15 % základu daně
 
         System.out.println("Předběžně vypočítaná daň z příjmu je: ");
-        System.out.println("");
+        System.out.println( zakladDane * 0.15 );
     }
 }

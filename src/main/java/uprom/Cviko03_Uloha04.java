@@ -19,8 +19,18 @@ public class Cviko03_Uloha04
         // Daňový bonus se upraví podle následujících pravidel:
         // - Daňový bonus vzniká jen pokud HM dosahuje alespoň poloviny minimální mzdy (minimální mzda je  20.800 Kč měsíčně)
         // - Hodnota měsíčního daňového bonusu musí převyšovat 100 Kč
-
+        System.out.println("Počet dětí:");
+        int deti = scanner.nextInt();
+        if(deti == 1){
+            dan = dan - 1267;
+        }
+        if(deti >= 2){
+            dan = dan - 1267 - 1860 - (deti-2)*2320;
+        }
+        if((dan < 0) && (dan > -100)) {
+            dan = 0;
+        }
         System.out.println("Prosím, zaplaťte následující finální daň z příjmu: ");
-        System.out.println("");
+        System.out.println(dan);
     }
 }
