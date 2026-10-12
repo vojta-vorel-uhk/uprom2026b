@@ -8,7 +8,7 @@ public class Cviko03_Uloha04
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Uveďte daň z příjmu po slevách: ");
-        double hrubaMzda = scanner.nextDouble();
+        double dan = scanner.nextDouble();
 
         // Doplň program tak, aby z daně po slevách odečetl ještě zvýhodnění na děti
         // Pokud vyjde záporné číslo, zachová se tato částka jako daňový bonus.

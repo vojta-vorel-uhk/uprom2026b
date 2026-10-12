@@ -8,7 +8,7 @@ public class Cviko03_Uloha03
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Uveďte předběžnou daň z příjmu: ");
-        double hrubaMzda = scanner.nextDouble();
+        double dan = scanner.nextDouble();
 
         // Doplň program tak, aby z přeběžné daně vypočetl daň sníženou o slevy.
         // Pokud vyjde záporné číslo, výsledek se upraví na nulu.
