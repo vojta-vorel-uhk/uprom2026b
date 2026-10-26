@@ -8,6 +8,13 @@ public class Cviko05_Uloha04
     {
         Scanner scanner = new Scanner(System.in);
 
+        String s;
+        do {
+            s = scanner.nextLine();
+            System.out.println(s.length());
+        } while (!s.equals("KONEC"));
+
+        System.out.println("Program běží dál");
         //	Opakuj do nekonečna: přečíst řetězec (String) z konzole
         //  a vypsat na konzoli délku tohoto řetězce.
         //  Pokud bylo zadáno "KONEC", ukončit program.
