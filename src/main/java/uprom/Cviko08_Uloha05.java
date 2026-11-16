@@ -10,5 +10,14 @@ public class Cviko08_Uloha05
         (jako charAt), ale pokud je pozice mimo
         platný rozsah, vrátí prázdný řetězec
         */
+        String s ="AHOJ";
+        System.out.println(s.charAt(10));
+    }
+
+    public static String safeCharAt(String s, int i){
+        if(i >= s.length() || i < 0){
+            return "";
+        }
+        return Character.toString(s.charAt(i));
     }
 }

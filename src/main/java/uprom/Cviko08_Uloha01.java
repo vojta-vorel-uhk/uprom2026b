@@ -16,6 +16,7 @@ public class Cviko08_Uloha01
     //Doplň metodu na výpočet Body mass indexu
     public static float bmi(float hmotnostKg, float vyskaCm)
     {
-        return 0;
+        float vyskaM = vyskaCm / 100;
+        return hmotnostKg / (vyskaM * vyskaM);
     }
 }
