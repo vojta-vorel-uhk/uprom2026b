@@ -14,7 +14,11 @@ public class Cviko09_Uloha02
     //  po sobě jdoucích celých čísel, počínaje nulou
     public static int[] getInterval(int count)
     {
-        return null;
+        int[] result = new int[count];
+        for (int i=0; i < result.length; i++){
+            result[i] = i;
+        }
+        return result;
     }
 
 }

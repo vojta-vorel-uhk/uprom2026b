@@ -13,6 +13,10 @@ public class Cviko09_Uloha05
     // TODO: Doplň metodu tak, aby vrátila pole, obsahující odmocniny daných čísel
     public static double[] sqrts(double[] inputs)
     {
-        return null;
+        double[] result = new double[inputs.length];
+        for(int i=0; i<inputs.length; i++){
+            result[i] = Math.sqrt(inputs[i]);
+        }
+        return result;
     }
 }
